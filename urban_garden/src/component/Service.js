@@ -45,6 +45,20 @@ export default function Service() {
                         </div>
                     </div>
                 </div>
+
+
+                <div className="col">
+                    <div className="card h-100">
+                        <img src="./assets/service/img2.jpg" className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">Planting and Removal</h5>
+                            <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div className="card-footer">
+                            <small className="text-muted"></small>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
