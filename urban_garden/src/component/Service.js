@@ -49,10 +49,41 @@ export default function Service() {
 
                 <div className="col">
                     <div className="card h-100">
-                        <img src="./assets/service/img2.jpg" className="card-img-top" alt="..." />
+                        <img src="./assets/service/Irrigation.jpg" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Planting and Removal</h5>
-                            <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p className="card-text">Dolor sit amet dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod..</p>
+                        </div>
+                        <div className="card-footer">
+                            <small className="text-muted"></small>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div className="col">
+                    <div className="card h-100">
+                        <img src="./assets/service/Stone.jpg" className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">Planting and Removal</h5>
+                            <p className="card-text">Dolor sit amet dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod..</p>
+                        </div>
+                        <div className="card-footer">
+                            <small className="text-muted"></small>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div className="col">
+                    <div className="card h-100">
+                        <img src="./assets/service/Rubbish.jpg" className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">Planting and Removal</h5>
+                            <p className="card-text">Dolor sit amet dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod..</p>
                         </div>
                         <div className="card-footer">
                             <small className="text-muted"></small>
@@ -60,6 +91,9 @@ export default function Service() {
                     </div>
                 </div>
             </div>
+
+
+            
 
         </div>
     )
