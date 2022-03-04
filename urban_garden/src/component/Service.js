@@ -71,6 +71,8 @@ export default function Service() {
                         </div>
                         <div className="card-footer">
                             <small className="text-muted"></small>
+
+                            
                         </div>
                     </div>
                 </div>
