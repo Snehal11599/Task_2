@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import GallaryImg from './GallaryImg'
 
 export default function NavBar() {
     return (
@@ -21,7 +22,7 @@ export default function NavBar() {
                                     Pages
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" to="/pages">GALLERY</a></li>
+                                    <li><a className="dropdown-item" to="/pages">GALLERY:<GallaryImg/></a></li>
                                     <li><a className="dropdown-item" to="/">TESTIMONIALS</a></li>
                                     <li><hr className="dropdown-divider" /></li>
                                     <li><a className="dropdown-item" to="/">FAQ</a></li>

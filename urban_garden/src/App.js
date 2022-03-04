@@ -6,12 +6,14 @@ import About from './component/About';
 import Service from './component/Service';
 
 function App() {
+
+  
   return (
     <>
       <NavBar />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Service />} />
       </Routes>
